@@ -24,8 +24,10 @@
 2. After the app is initialized add it to the ***Installed Apps*** list in *marketplace /marketplace/settings.py*
 
 3. Create Index View in the views.py file in core app folder
-```def index(request):
-    return render(request, 'core/index.html')```
+```
+def index(request):
+    return render(request, 'core/index.html')
+```
 
 4. Create the corresponding view template core/index.html
     - create a folder called ***templates*** , this is the folder Django looks for to render templates
