@@ -24,7 +24,7 @@
 2. After the app is initialized add it to the ***Installed Apps*** list in *marketplace /marketplace/settings.py*
 
 3. Create Index View in the views.py file in core app folder
->```
+```
 def index(request):
     return render(request, 'core/index.html')
 ```
